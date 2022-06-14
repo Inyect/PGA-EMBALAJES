@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;   margin: 0; box-sizing: border-box;
+ }
+ 
+ body{
+     font-family: 'Raleway', sans-serif;
+     background: url(../Img/web.jpg); 
+     
+     background-size: cover;
+     background-attachment: fixed; 
+ }
+
+
+/*------------Menu-------------*/
+
+.Contenedor-Menu{
+  background-color: white;
+
+}
+ 
+/*------------Inyect-------------*/
+
+.ContenedorNosotros-Inyect_{
+
+    display: block;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+
+.icono-formato{
+/*Icono inyect_*/
+   width: 300px;
+   border-radius: 100%;
+
+   margin-top: 50px;
+}
+
+h1{
+    color: rgb(195, 255, 0);
+    background-color: black;
+    padding: 20px;
+}
+
+.contenedor-hija{
+/*Hija*/
+  background-color: rgba(0, 0, 0, 0.514);
+  padding: 50px;
+  margin-top: 100px;
+}
+
+h2{
+
+   font-size: 30px;
+   color: rgb(195, 255, 0); 
+   
+}
+
+ul , .enlace-correo-menu{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(195, 255, 0);
+    text-shadow: 1px 1px red;
+    text-decoration: none; 
+    list-style:none;
+}
+
+@media only screen and (max-width: 550px){
+   
+    .enlace-correo-menu{
+
+        font-size: 20px;
+    }    
+
+}/*Responsive*/
+
+ 
+ /*=================WHATSAPP FLOTANTE===============*/
+ /*=================================================*/
+ 
+ .btn-wsp{
+    
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    line-height: 55px;
+    bottom: 30px;
+    right: 40px;
+    text-align: center;
+ 
+    padding-top: 15px;  
+ }
+ 
+ .iconoTamañoWP{
+ /*Icono del WHATSAPP*/
+     width: 55px;
+ }
+ 
+
+ @media only screen and (max-width: 800px){
+ 
+   .btn-wsp{
+ 
+      position: fixed;
+      bottom: 20px;
+      right: 5px;
+      padding-top: 15px;
+      padding-bottom: 2px;
+   }
+ 
+   .iconoTamañoWP{
+ 
+        width: 40px;
+   }
+ 
+ } /*Responsive Wp*/;
